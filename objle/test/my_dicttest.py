@@ -2,6 +2,8 @@ import unittest
 from objle.test.dict import Dict
 #继承unittest.TestCase方法
 class TestDict(unittest.TestCase):
+
+
     def test_init(self):
         d=Dict(a=1,b='test')
         self.assertEqual(d.a,1)
